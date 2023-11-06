@@ -1,0 +1,108 @@
+#1
+
+print ("Hello World")
+
+#7
+
+def caq(lados):
+  área = lado ** 2
+  return área
+def caq2(area):
+  dobroȧrea = 2* área
+  return dobroárea
+lado = float(input("Digite o comprimento do quadrado"
+área caq(lado)
+print(f"A área do quadrado é: (area) ")
+dobroárea = caq2(area)
+print(f"O dobro da área é: (dobroárea} ")
+
+#13
+
+h = float(input("Qual a altura?"))
+b = float(input("Informe seu gênero (1 = feminino/2 = masculino)
+if (b==1):
+ p = (62.1*h)-44.7
+else:
+  p = (72.7*h)-58
+print("0 peso idela é", p)
+
+#17
+
+tamanho = float(input('Quantos metros quadrados devem ser pintados: "))
+litros = tamanho / 3.0
+
+latas = int(litros / 18.0)
+
+if litros % 18 != 0:
+
+latas += 1
+print('Voce deverá comprar', latas, 'latas.')
+
+print('O valor total é:', latas * 80)
+
+#25
+
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+num3 = float(input("Digite o terceiro número: "))
+
+maior = max(num1, num2, num3)
+menor = min(num1, num2, num3)
+
+print("O maior número é:", maior)
+print("O menor número é:", menor)
+
+#35
+
+ano = int(input("Digite um ano: "))
+
+if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0)
+    print(ano, "é um ano bissexto.")
+else:
+    print(ano, "não é um ano bissexto.")
+
+    #46
+    
+nota = float(input("Digite uma nota entre zero e dez: "))
+
+while nota < 0 or nota > 10:
+    print("Valor inválido. Digite novamente.")
+    nota = float(input("Digite uma nota entre zero e dez: "))
+
+print("A nota digitada é:", nota)
+
+#53
+
+soma = 0
+for i in range(5):
+    numero = float(input("Digite um número: "))
+    soma += numero
+
+media = soma / 5
+print("A soma dos números é:", soma)
+print("A média dos números é:", media)
+
+#56
+
+soma = 0
+for i in range(5):
+    numero = float(input("Digite um número: "))
+    soma += numero
+
+print("A soma dos números é:", soma)
+
+#59
+
+pares = 0
+impares = 0
+
+for i in range(10):
+    numero = int(input("Digite um número inteiro: "))
+    
+    if numero % 2 == 0:
+        pares += 1
+    else:
+        impares += 1
+
+print("Quantidade de números pares:", pares)
+print("Quantidade de números ímpares:", impares)
