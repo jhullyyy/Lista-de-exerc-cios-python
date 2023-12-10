@@ -1,8 +1,8 @@
-#1
+#Question 1
 
 print ("Hello World")
 
-#7
+#Question 7
 
 def caq(lados):
   área = lado ** 2
@@ -16,7 +16,7 @@ print(f"A área do quadrado é: (area) ")
 dobroárea = caq2(area)
 print(f"O dobro da área é: (dobroárea} ")
 
-#13
+#Question 13
 
 h = float(input("Qual a altura?"))
 b = float(input("Informe seu gênero (1 = feminino/2 = masculino)
@@ -26,7 +26,7 @@ else:
   p = (72.7*h)-58
 print("0 peso idela é", p)
 
-#17
+#Question 17
 
 tamanho = float(input('Quantos metros quadrados devem ser pintados: "))
 litros = tamanho / 3.0
@@ -40,7 +40,7 @@ print('Voce deverá comprar', latas, 'latas.')
 
 print('O valor total é:', latas * 80)
 
-#25
+#Question 25
 
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
@@ -52,7 +52,7 @@ menor = min(num1, num2, num3)
 print("O maior número é:", maior)
 print("O menor número é:", menor)
 
-#35
+#Question 35
 
 ano = int(input("Digite um ano: "))
 
@@ -71,7 +71,7 @@ while nota < 0 or nota > 10:
 
 print("A nota digitada é:", nota)
 
-#53
+#Question 53
 
 soma = 0
 for i in range(5):
@@ -82,7 +82,7 @@ media = soma / 5
 print("A soma dos números é:", soma)
 print("A média dos números é:", media)
 
-#56
+#Question 56
 
 soma = 0
 for i in range(5):
@@ -91,7 +91,7 @@ for i in range(5):
 
 print("A soma dos números é:", soma)
 
-#59
+#Question 59
 
 pares = 0
 impares = 0
